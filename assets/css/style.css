@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "Monday-Miracle";
+  src: url("../fonts/Monday-Miracle.woff2") format("woff2"),
+    url("../fonts/Monday-Miracle.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Custom Font using in body */
+body {
+  font-family: Monday-Miracle;
+}
+
+p {
+  border: 1px solid coral;
+  font-size: 15px;
+}
+
+h2,
+h4,
+h6 {
+  /* Font from Google */
+  font-family: Oswald;
+  font-weight: normal;
+}
